@@ -1,0 +1,6 @@
+.frame a:first-child{
+    background-color: white;
+}
+.frame a:last-child{
+    background-color: yellow;
+}

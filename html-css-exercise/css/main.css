@@ -1,0 +1,170 @@
+html{
+    font-size: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+p,div{
+    margin: 0;
+    padding: 0;
+}
+input[type*="button"]{
+    border: none;
+    background-color: greenyellow;
+    outline: none;  
+    box-shadow: 4px 4px 8px rgb(114, 114, 114);
+    -moz-box-shadow: 4px 4px 8px rgb(114, 114, 114);
+    -webkit-box-shadow: 4px 4px 8px rgb(114, 114, 114);
+} 
+a,a:link,a:visited,a:active,a:hover{
+    text-decoration: none;
+    color:inherit;
+}
+a{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+@font-face {
+    font-family: "myFont";
+    src: url("../font/TypoSlabserif-Light-1.ttf");
+}
+@font-face{
+  font-family: "myFonthead";
+  src: url("../font/arbutusslab-regular.ttf");
+}
+
+/* 导航 */
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+    box-shadow: 4px 4px 8px rgb(114, 114, 114);
+    -moz-box-shadow: 4px 4px 8px rgb(114, 114, 114);
+    -webkit-box-shadow: 4px 4px 8px rgb(114, 114, 114);
+}
+h1{
+    font-size: 3rem;
+    margin: 0;
+    line-height: 100px;
+    color: white;
+    margin-left: 30px;
+    font-family: "myFonthead", serif;
+}
+.sign{
+    float: right;
+    line-height: 100px;
+    margin-right: 30px;
+}
+.sign a{
+    margin-left: 15px;
+    color: yellow;
+} 
+.sign a:hover{
+    font-size: 2.3rem;
+}
+.sign a:active{
+    color: greenyellow;
+}
+.nav::after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+/* 表单部分 */
+.frame{
+    width: 480px;
+    border: 9px double orange;
+    margin: 40px auto 0;
+    box-shadow: 4px 4px 8px rgb(114, 114, 114);
+    -moz-box-shadow: 4px 4px 8px rgb(114, 114, 114);
+    -webkit-box-shadow: 4px 4px 8px rgb(114, 114, 114);
+}
+.a-clear a{
+    display: block;
+    float: left;
+    width: 238px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 4px solid orange; 
+    color: orange;
+}
+.a-clear a:first-child{
+    border-right: 4px solid orange;
+    background-color: yellow;
+}
+.a-clear::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.in-style input{
+    display: block;
+    margin-top: 5px;
+    border: none;
+    outline: 3px orange solid;
+    height: 20px;
+    width: 90%;
+}
+.in-style label{
+    font-size: 2rem;
+    color: coral;
+    font-weight: bold;
+}
+form div{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+form div::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.check{
+    margin-left: -3px;
+    float: left;
+}
+.check+label{
+    font-size: 1rem;
+    display: block;
+    float: left;
+    color: orange;
+}
+input[type*="button"]{
+    color: orange;
+    height: 30px;
+    font-weight: bold;
+}
+.foot{
+    margin-bottom: 30px;
+}
+.foot a{
+    font-size: 1rem;
+    letter-spacing: normal;
+    color: green;
+}
+.foot a:hover{
+    color: paleturquoise;
+}
+.foot p{
+    display: inline;
+    font-size: 1rem;
+    border-left: 1px solid black;
+    padding:0 5px;
+}
+.form-occupation p{
+    font-size: 2rem;
+    color: coral;
+    font-weight: bold;
+}
+.form-occupation div{
+    margin: -3px;
+    margin-top: 5px;
+}
+.form-occupation label{
+    color: orange;
+}
