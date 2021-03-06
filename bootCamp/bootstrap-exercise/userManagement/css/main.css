@@ -1,0 +1,42 @@
+nav{
+    height: 100px;
+}
+nav .navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+}
+nav p{
+    display: inline;
+    margin-right: 10px;
+}
+.container .row{
+    margin-top: 30px;
+}
+.container button{
+    float: right;
+}
+.container .mol-user{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.container .mol-user p{
+    float: left;
+    margin-left: 40px;
+}
+.container .mol-user .pa-a{
+    width: 30%;
+    margin-left: 0;
+    text-align: right;
+}
+.error{
+    color: red;
+}
+#idl{
+    position: relative;
+}
+#idl-error{
+    position: absolute;
+    top: -32px;
+    left: 72px;
+    width: 170px;
+}

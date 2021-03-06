@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>bootCamp</title>
+    <link rel="stylesheet" href="../css/mainyi.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <a class="navbar-brand text-white" href="#">bootCamp</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ml-3 " id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item active border border-dark border-right-0 rounded-left bg-white">
+              <a class="nav-link text-dark Small shadow" href="./index.html">用户</a>
+            </li>
+            <li class="nav-item border border-dark border-right-0 bg-white">
+              <a class="nav-link text-dark Small shadow " href="#">讨论区</a>
+            </li>
+            <li class="nav-item border border-dark rounded-right bg-info">
+              <a class="nav-link text-dark Small shadow " href="#">我的设置<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+        <div>
+            <p>你好，李一</p>
+            <a href="#">退出</a>
+        </div>
+      </nav>
+
+      <div class="container">
+          <div class="row border border-top">
+              <p>我的设置</p>
+          </div>
+          <div class="row border border-top-0">
+            <form id="demoForm">
+                <div class="form-group row">
+                    <label for="myUesrs"  class="col-4 col-form-label">用户名</label>
+                    <div class="col-sm-8">
+                        <div class="user">liyi</div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="myUesrs"  class="col-4 col-form-label">真实姓名</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="myUsers" placeholder="李一" name="china">
+                    </div>
+                </div>
+                <div class="form-group row">
+                  <label for="myEmail" class="col-4 col-form-label">电子邮箱</label>
+                  <div class="col-8">
+                    <input type="email" class="form-control" id="myEmail" placeholder="liyi@example.com" name="myEmail">
+                  </div>
+                </div>
+                <div class="form-group row">
+                    <label for="myYear" class="col-4 col-form-label">年龄</label>
+                    <div class="col-8">
+                      <input type="number" class="form-control" id="myYear" placeholder="18" name="myYear"> 
+                    </div>
+                </div>
+                <fieldset class="form-group">
+                  <div class="row">
+                    <legend class="col-form-label col-sm-4 pt-0">职业</legend>
+                    <div class="col-sm-8">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" checked id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">学生</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">上班族</label>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+                <div class="form-group row" id="useSchool">
+                    <label for="mySchool" class="col-4 col-form-label">学校</label>
+                    <div class="col-8">
+                      <input type="text" class="form-control" id="mySchool" placeholder="家里蹲大学">
+                    </div>
+                </div>   
+                <div class="form-group row" id="useCompany">
+                  <label for="myCompany" class="col-4 col-form-label">公司</label>
+                  <div class="col-8">
+                  <input type="text" name="myCompany" class="form-control" id="myCompany">
+                  </div>
+                </div>
+                <div class="form-group row" id="idl">
+                    <label class="col-4 col-form-label">兴趣爱好</label>
+                    <div class="col-8">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" name="idl">
+                            <label class="form-check-label" for="inlineCheckbox1">游戏</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">足球</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox3" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox3">篮球</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox4" value="option2" checked>
+                            <label class="form-check-label" for="inlineCheckbox4">唱歌</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox5" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox5">舞蹈</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox6" value="option2" checked>
+                            <label class="form-check-label" for="inlineCheckbox6">听音乐</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox7" value="option1" checked>
+                            <label class="form-check-label" for="inlineCheckbox7">看小说</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox8" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox8">看电影</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox9" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox9">撸铁</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox10" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox10">跑步</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="mySchool" class="col-4 col-form-label"></label>
+                    <div class="col-8">
+                        <button type="submit" class="btn btn-primary">保存</button>
+                    </div>
+                </div>  
+            </form>
+          </div>
+      </div>
+
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>  
+    <script src="../js/main.js"></script>
+    
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>bootCamp</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-8">
+                <h1>bootcamp-用户管理系统</h1>
+            </div>
+            <div class="col-4">
+                <div>
+                    <a href="./index.html">登录</a>
+                    <a href="./register.html">注册</a>
+                </div>
+            </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center border-warning border-bottom"><a href="../html/index.html">登录</a></div>
+            <div class="col text-center border-left border-warning border-bottom green"><a href="../html/register.html">注册</a></div>
+            <div class="w-100"></div>
+            <form id="demoForm">
+                <div class="form-group">
+                  <label for="myUesr">用户名</label>
+                  <input type="txt" class="form-control" id="myUser" name="exampleInputEmail1">
+                  <div id="help">请填写用户名!</div>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">密码</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" name="exampleInputPassword1">
+                  <div id="help">请填写密码!</div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1My">确认密码</label>
+                    <input type="password" name="myPass" class="form-control" id="exampleInputPassword1My">
+                    <div id="help">请与上面填写的密码一致</div>
+                </div>
+                <div class="form-group">
+                    <label for="myUesrs">真实姓名</label>
+                    <input type="text" class="form-control" id="myUsers" name="china">
+                    <div id="help">请填写真实姓名!</div>
+                  </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">电子邮箱</label>
+                    <input type="email" name="myEmail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="help">请填写email邮箱!</div>
+                </div>
+                <div class="form-group">
+                    <label for="myYear">年龄</label>
+                    <input type="number" class="form-control" name="myYear" id="myYear">
+                    <div id="help">请填写年龄!</div>
+                </div>
+                <div><label>职业</label></div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" checked id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">学生</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">公司</label>
+                </div>
+                <div class="form-group mt-1" id="useSchool">
+                    <label for="mySchool">学校</label>
+                    <input type="text" name="mySchool" class="form-control" id="mySchool">
+                    <div id="help">请填写学校!</div>
+                </div>
+                <div class="form-group" id="useCompany">
+                    <label for="myCompany">公司</label>
+                    <input type="text" name="myCompany" class="form-control" id="myCompany">
+                    <div id="help">请填写公司!</div>
+                </div>
+                <div id="idl">
+                    <div><label>兴趣爱好</label></div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">游戏</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">足球</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox3" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox3">篮球</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox4" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox4">唱歌</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox5" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox5">舞蹈</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox6" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox6">听音乐</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox7" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox7">看小说</label>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox8" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox8">看电影</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox9" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox9">撸铁</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox10" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox10">跑步</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-warning btn-block btn-click-my">登录</button>
+                <div class="footer"></div>
+            </form> 
+        </div>
+    </div>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>  
+    <script src="../js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

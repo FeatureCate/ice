@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>bootCamp</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <a class="navbar-brand text-white" href="#">bootCamp</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ml-3 " id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item active border border-dark border-right-0 bg-info rounded-left ">
+              <a class="nav-link text-dark Small shadow" href="#">用户<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item border border-dark border-right-0 bg-white">
+              <a class="nav-link text-dark Small shadow " href="#">讨论区</a>
+            </li>
+            <li class="nav-item border border-dark bg-white rounded-right">
+              <a class="nav-link text-dark Small shadow " href="./aa.html">我的设置</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+            <p>你好，李一</p>
+            <a href="../../signUp/html/index.html">退出</a>
+        </div>
+      </nav>
+      <!-- <div class="w-100"></div> -->
+      <div class="container px-0">
+        <div class="row"> 
+            <div class="col-2 pl-0">
+                <select class="form-control form-control">
+                    <option>用户名</option>
+                </select>
+            </div>
+            <div class="col-5">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="请输入" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+                </form>
+            </div>
+            <div class="col-5 pr-0">
+                 <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                    添加用户
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1 border-bottom"></div>
+            <div class="col-1 border border-bottom-0"><a href="#">全部</a></div>
+            <div class="col-1 border bg-light"><a href="#">学生</a></div>
+            <div class="col-1 border bg-light"><a href="#">上班族</a></div>
+            <div class="col-8 border-bottom"></div>
+        </div>
+        <div class="row"></div>
+        <table class="table table-striped table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">用户名</th>
+                <th scope="col">角色</th>
+                <th scope="col">姓名</th>
+                <th scope="col">邮箱</th>
+                <th scope="col">职业</th>
+                <th scope="col">学校/公司</th>
+                <th scope="col">操作</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>liyi</td>
+                <td>管理员</td>
+                <td>李一</td>
+                <td>liyi@example.com</td>
+                <td>学生</td>
+                <td>家里蹲大学</td>
+                <td>
+                    <a href="#" data-toggle="modal" data-target="#exampleModalCenterA">编辑</a>
+                    <a href="#" data-toggle="modal" data-target="#exampleModalCenterB">详情</a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>wanger</td>
+                <td>管理员</td>
+                <td>王二</td>
+                <td>wanger@example.com</td>
+                <td>上班族</td>
+                <td>杭州123</td>
+                <td>
+                    <a href="#" data-toggle="modal" data-target="#exampleModalCenterA">编辑</a>
+                    <a href="#" data-toggle="modal" data-target="#exampleModalCenterB">详情</a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>zhangsan</td>
+                <td>管理员</td>
+                <td>张三</td>
+                <td>zhnagsan@example.com</td>
+                <td>学生</td>
+                <td>123大学</td>
+                <td>
+                    <a href="#" data-toggle="modal" data-target="#exampleModalCenterA">编辑</a>
+                    <a href="#" data-toggle="modal" data-target="#exampleModalCenterB">详情</a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">&nbsp</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">&nbsp</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">&nbsp</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">添加新用户</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <form id="demoForm">
+                    <div class="form-group">
+                      <label for="myUesr">用户名</label>
+                      <input type="txt" class="form-control" id="myUser" name="exampleInputEmail1">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">密码</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" name="exampleInputPassword1">
+                      
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1My">确认密码</label>
+                        <input type="password" name="myPass" class="form-control" id="exampleInputPassword1My">
+                    
+                    </div>
+                    <div class="form-group">
+                        <label for="myUesrs">真实姓名</label>
+                        <input type="text" class="form-control" id="myUsers" name="china">
+                        
+                      </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">电子邮箱</label>
+                        <input type="email" name="myEmail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        
+                    </div>
+                    <div class="form-group">
+                        <label for="myYear">年龄</label>
+                        <input type="number" class="form-control" name="myYear" id="myYear">
+                    
+                    </div>
+                    <div><label>职业</label></div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" checked id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">学生</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">公司</label>
+                    </div>
+                    <div class="form-group mt-1" id="useSchool">
+                        <label for="mySchool">学校</label>
+                        <input type="text" name="mySchool" class="form-control" id="mySchool">
+                      
+                    </div>
+                    <div class="form-group" id="useCompany">
+                        <label for="myCompany">公司</label>
+                        <input type="text" name="myCompany" class="form-control" id="myCompany">
+                       
+                    </div>
+                    <div id="idl">
+                        <div><label>兴趣爱好</label></div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">游戏</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">足球</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox3" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox3">篮球</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox4" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox4">唱歌</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox5" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox5">舞蹈</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox6" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox6">听音乐</label>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox7" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox7">看小说</label>
+                        </div>
+                       
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox8" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox8">看电影</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox9" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox9">撸铁</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="idl" id="inlineCheckbox10" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox10">跑步</label>
+                        </div>
+                    </div>
+               
+            </div>
+            <div class="modal-footer">
+                    
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                <button type="submit" class="btn btn-primary">添加</button>
+                
+            </div> 
+        </form> 
+        </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModalCenterA" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitleA">编辑用户信息</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <form id="demoForme">
+                    <div class="form-group">
+                      <label for="myUesr">用户名</label>
+                      <input type="txt" class="form-control" id="myUser" placeholder="liyi" disabled>
+                      <!-- <div id="help">请填写用户名!</div> -->
+                    </div>
+                    <div><label>职业</label></div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">成员</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio4" value="option4" checked>
+                        <label class="form-check-label" for="inlineRadio4">管理员</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="myUesrs">真实姓名</label>
+                        <input type="text" class="form-control" name="china" id="myUsers" placeholder="李一">
+                        <!-- <div id="help">请填写真实姓名!</div> -->
+                      </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">电子邮箱</label>
+                        <input type="email" class="form-control" name="myEmail" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="liyi@example.com">
+                        <!-- <div id="help">请填写email邮箱!</div> -->
+                    </div>
+                    <div class="form-group">
+                        <label for="myYear">年龄</label>
+                        <input type="number" class="form-control" name="myYear" id="myYear" placeholder="18">
+                        <!-- <div id="help">请填写年龄!</div> -->
+                    </div>
+                    <div><label>职业</label></div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio5" value="option5" checked>
+                        <label class="form-check-label" for="inlineRadio5">学生</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio6" value="option6">
+                        <label class="form-check-label" for="inlineRadio6">上班族</label>
+                    </div>
+                    <div class="form-group mt-1" id="useSchooll">
+                        <label for="mySchool">学校</label>
+                        <input type="text" class="form-control" id="mySchool" placeholder="家里蹲大学">
+                        <!-- <div id="help">请填写学校!</div> -->
+                    </div>
+                    <div class="form-group mt-1" id="useCompanyy">
+                        <label for="myCompany">公司</label>
+                        <input type="text" class="form-control" id="myCompany">
+                        <!-- <div id="help">请填写公司!</div> -->
+                    </div>
+                    <div id="idll">
+                    <div><label>兴趣爱好</label></div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">游戏</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">足球</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox3">篮球</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option2" checked>
+                        <label class="form-check-label" for="inlineCheckbox4">唱歌</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox5">舞蹈</label>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option2" checked>
+                        <label class="form-check-label" for="inlineCheckbox6">听音乐</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option1" checked>
+                        <label class="form-check-label" for="inlineCheckbox7">看小说</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox8" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox8">看电影</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox9" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox9">撸铁</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox10" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox10">跑步</label>
+                    </div>
+                    </div>
+                
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+            <button type="submit" class="btn btn-primary">添加</button>
+            </div>
+        </form> 
+        </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModalCenterB" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitleB">用户详情</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row mol-user">
+                        <p class="pa-a">用户名</p>
+                        <p class="pa-b">liyi</p>
+                    </div>
+                    <div class="row mol-user">
+                        <p class="pa-a">角色</p>
+                        <p >管理员</p>
+                    </div>
+                    <div class="row mol-user">
+                        <p class="pa-a">真实姓名</p>
+                        <p>李一</p>
+                    </div>
+                    <div class="row mol-user">
+                        <p class="pa-a">电子邮箱</p>
+                        <p>liyi@example.com</p>
+                    </div>
+                    <div class="row mol-user">
+                        <p class="pa-a">年龄</p>
+                        <p>18</p>
+                    </div>
+                    <div class="row mol-user">
+                        <p class="pa-a">职业</p>
+                        <p>学生</p>
+                    </div>
+                    <div class="row mol-user">
+                        <p class="pa-a">公司/学校</p>
+                        <p>家里蹲大学</p>
+                    </div>
+                    <div class="row mol-user">
+                        <p class="pa-a">兴趣爱好</p>
+                        <p>唱歌，听音乐，看小说</p>
+                    </div>
+                </div>
+            <div class="modal-footer">
+            <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal"></button> -->
+            <button type="button" class="btn btn-primary">取消</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>  
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    
+    <script src="../js/miane.js"></script>
+    <script src="../js/mianee.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
