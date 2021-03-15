@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>登录页</title>
+        <script src="./vue.js"></script>
+    </head>
+    <body>
+        <div id="app" v-once>
+            <ul>
+                <li v-for="item,index in items" :key="index">
+                    {{item.message}}
+                </li>
+                <li v-for="value,key in object" :key="key">
+                    {{value}}
+                </li>
+            </ul>
+        </div>
+        <script>
+            var vm = new Vue({
+                    el: '#app',
+                    data: {
+                        items:[
+                            {message:'foo'},
+                            {message:'bar'}
+                        ],
+                        object:{
+                            title:'aaaa',
+                            author:"bbbb"
+                        }
+                    }
+            });
+
+            vm.a = "hellow!"
+
+        </script>
+    </body>
+</html>

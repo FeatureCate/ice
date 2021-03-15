@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>登录页</title>
+        <script src="./vue.js"></script>
+    </head>
+    <body>
+        <div id="app" v-once>
+            {{ a }}
+            <p v-html="stle"></p>
+            <div @click='click2'>
+                <div @click.stop='click1'>click me</div>
+            </div>
+        </div>
+        <script>
+            var vm = new Vue({
+                    el: '#app',
+                    data: {
+                        a: 'Hellow Vue!',
+                        stle : '<span style="color :red;">this is my cat!<span>'
+                    },
+                    methods: {
+                        click1 : function(){
+                            console.log('cat');
+                        },
+                        click2 : function(){
+                            console.log('sweet');
+                        }
+                    }
+            });
+
+            vm.a = "hellow!"
+
+        </script>
+    </body>
+</html>
