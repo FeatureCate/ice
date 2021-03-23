@@ -35,7 +35,7 @@
             <el-input type="text" v-model="ruleForm.compe" autocomplete="off"></el-input>
           </el-form-item>
 
-          <el-form-item id="idl" label="兴趣爱好" prop="type" class="name-a" :class="{'sca':ruleForm.display}">
+          <el-form-item id="idl" label="兴趣爱好" prop="type" class="name-a">
             <el-checkbox-group v-model="ruleForm.type">
             <el-checkbox label="游戏" name="type" class="name-b"></el-checkbox>
             <el-checkbox label="足球" name="type" class="name-b"></el-checkbox>
