@@ -20,7 +20,7 @@
   }
 
   function isDef (v) {
-    return v !== undefined && v !== null
+    return v !== undefined && v !== null 
   }
 
   function isTrue (v) {
